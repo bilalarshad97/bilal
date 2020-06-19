@@ -1,4 +1,4 @@
-package com.bilal.bilalbdms.service;
+package com.bilal.bilal.service;
 
 
 import com.bilal.bilal.entity.Admin;
@@ -34,7 +34,7 @@ public class AdminService {
         } else {
             adminRepository.save(b);
         }
-        return bloodtbl;
+        return b;
     }
 
     public boolean delete(Long id) {

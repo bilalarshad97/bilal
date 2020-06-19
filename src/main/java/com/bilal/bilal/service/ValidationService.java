@@ -1,4 +1,4 @@
-package com.bdms.bdms.service;
+package com.bilal.bilal.service;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.bdms.bdms.entity;
+package com.bilal.bilal.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

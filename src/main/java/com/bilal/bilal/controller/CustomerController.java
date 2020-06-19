@@ -1,9 +1,8 @@
-package com.bdms.bdms.controller;
+package com.bilal.bilal.controller;
 
-
-import com.bdms.bdms.service.CustomerService;
-import com.bdms.bdms.service.ValidationService;
 import com.bilal.bilal.entity.Customer;
+import com.bilal.bilal.service.CustomerService;
+import com.bilal.bilal.service.ValidationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

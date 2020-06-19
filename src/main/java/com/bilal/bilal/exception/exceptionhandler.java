@@ -1,4 +1,4 @@
-package com.bdms.bdms.exception;
+package com.bilal.bilal.exception;
 
 public class exceptionhandler extends RuntimeException {
     public exceptionhandler(String Message) {

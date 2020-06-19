@@ -23,7 +23,6 @@ public class Customer {
     String Mobile;
     String city;
     String area;
-    String age;
     String email;
     String password;
 

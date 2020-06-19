@@ -1,6 +1,6 @@
-package com.bdms.bdms.service;
+package com.bilal.bilal.service;
 
-import com.bdms.bdms.entity.Bloodtbl;
+import com.bilal.bilal.entity.Customer;
 import com.bilal.bilal.entity.Customer;
 import com.bilal.bilal.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,7 +32,7 @@ public class CustomerService {
         if (c.getId() == null) {
             Repository.save(c);
         } else {
-            c.save(c);
+            //c.save(c);
         }
         return c;
     }
