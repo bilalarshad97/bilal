@@ -11,7 +11,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/donor")
+@RequestMapping("/product")
 @CrossOrigin
 
 public class ProductController {
@@ -19,7 +19,7 @@ public class ProductController {
     private ProductService walletService;    //this object is blood tbl service in this file
     @Autowired
     private ValidationService validationService;
-
+int i;
     @PostMapping
     public ResponseEntity<?> create(@RequestBody com.bilal.bilal.entity.Product bloodtbl, BindingResult result) {
         ResponseEntity errors = validationService.validate(result);
