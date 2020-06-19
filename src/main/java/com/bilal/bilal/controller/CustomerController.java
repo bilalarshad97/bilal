@@ -14,7 +14,9 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/admin")
 @CrossOrigin
 
+
 public class CustomerController {
+
     @Autowired
     private CustomerService walletService;
     @Autowired
